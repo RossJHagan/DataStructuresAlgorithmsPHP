@@ -1,0 +1,26 @@
+{
+  "name": "RossJHagan/DataStructures",
+  "description": "A set of basic data structures implemented in PHP",
+  "authors": [
+    {
+      "name": "Ross J. Hagan",
+      "email": "rossjhagan@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RossJHagan\\DataStructures\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RossJHagan\\DataStructure\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "klein/klein": "v2.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.7.3"
+  }
+}
